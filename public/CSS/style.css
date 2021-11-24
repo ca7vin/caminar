@@ -143,5 +143,76 @@ body .sect2 .sect2-container .sect2-img {
 body .sect2 .sect2-container .sect2-img img {
   width: 50%;
 }
+body .sect3 {
+  margin: 0 5%;
+}
+body .sect3 .sect3-container {
+  display: flex;
+}
+body .sect3 .sect3-container .sect3-img {
+  flex: 1;
+}
+body .sect3 .sect3-container .sect3-img img {
+  width: 100%;
+}
+body .sect3 .sect3-container .sect3-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background-color: white;
+}
+body .sect3 .sect3-container .sect3-text-container .sect3-text {
+  padding: 10% 20%;
+  display: flex;
+  flex-direction: column;
+}
+body .sect3 .sect3-container .sect3-text-container .sect3-text h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+body .sect3 .sect3-container .sect3-text-container .sect3-text p {
+  margin: 0;
+  font-size: 18px;
+  color: #9C9D96;
+}
+body .sect4 {
+  margin: 0 5%;
+}
+body .sect4 .sect4-container {
+  display: flex;
+}
+body .sect4 .sect4-container .sect4-img {
+  flex: 1;
+}
+body .sect4 .sect4-container .sect4-img img {
+  width: 100%;
+}
+body .sect4 .sect4-container .sect4-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background-color: #1E1F23;
+}
+body .sect4 .sect4-container .sect4-text-container .sect4-text {
+  padding: 10% 20%;
+  display: flex;
+  flex-direction: column;
+}
+body .sect4 .sect4-container .sect4-text-container .sect4-text h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: end;
+  color: white;
+}
+body .sect4 .sect4-container .sect4-text-container .sect4-text p {
+  margin: 0;
+  font-size: 18px;
+  color: #56575A;
+  text-align: end;
+}
 
 /*# sourceMappingURL=style.css.map */
