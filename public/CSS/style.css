@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../public/images/bg.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+body .titre-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+body .titre-h1 h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+body .titre-h1 span {
+  color: #bebebe;
+}
+body .titre-h1 span a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bebebe;
+}
+body .sect1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5%;
+  background-color: white;
+}
+body .sect1 .sect1-banner {
+  background-image: url("../../public/images/pic02.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  height: 70vh;
+}
+body .sect1 .sect1-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+body .sect1 .sect1-header .sect1-h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .sect1 .sect1-header .sect1-h2 h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 26px;
+}
+body .sect1 .sect1-header .sect1-line {
+  height: 1px;
+  width: 20%;
+  background-color: #CDCCCD;
+  margin: 10px 0px;
+}
+body .sect1 .sect1-header .sect1-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .sect1 .sect1-header .sect1-span span {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #CDCCCD;
+}
+body .sect1 .sect1-text {
+  padding: 50px 10%;
+  background-color: #F7F6F5;
+}
+body .sect1 .sect1-text p {
+  font-size: 16px;
+  color: #C9A2A1;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=style.css.map */
