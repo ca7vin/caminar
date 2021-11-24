@@ -238,4 +238,31 @@ body footer .copyright p {
   color: #bebebe;
 }
 
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 768px) {
+  .sect2-img {
+    flex-direction: column;
+  }
+  .sect2-img img {
+    min-width: 100%;
+  }
+
+  .sect3-container {
+    flex-direction: column;
+  }
+  .sect3-container .sect3-img {
+    width: 100%;
+  }
+  .sect3-container .sect3-img img {
+    height: 100%;
+  }
+  .sect3-container .sect3-text-container {
+    flex: none;
+  }
+
+  .sect4-container {
+    flex-direction: column-reverse;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
