@@ -86,5 +86,62 @@ body .sect1 .sect1-text p {
   color: #C9A2A1;
   font-weight: lighter;
 }
+body .sect2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5%;
+  background-color: #1E1F23;
+}
+body .sect2 .sect2-container {
+  background-color: #121315;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .sect2 .sect2-container .sect2-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+body .sect2 .sect2-container .sect2-h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .sect2 .sect2-container .sect2-h2 h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+}
+body .sect2 .sect2-container .sect2-line {
+  height: 1px;
+  width: 20%;
+  background-color: #3E4B46;
+  margin: 10px 0px;
+}
+body .sect2 .sect2-container .sect2-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .sect2 .sect2-container .sect2-span span {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #3E4B46;
+}
+body .sect2 .sect2-container .sect2-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .sect2 .sect2-container .sect2-img img {
+  width: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
